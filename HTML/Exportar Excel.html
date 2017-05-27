@@ -19,17 +19,17 @@
       <img src="../Media/Logo.png" width="200px">
     </header>
     <div class="form">
-      <form action="login.html" method="post">
+      <form action="export_excel.html" method="post">
         <fieldset>
-          <legend>Login</legend>
-          Username:
-          <input type="text" name="username" size="38" autofocus="" autocomplete="on" title="Inserte su nombre de usuario aqui">
+          Nombre:
+          <input type="text" name="file_name" size="28" autofocus="" autocomplete="on" title="Inserte el nombre del archivo aqui">
           <br>
           <br>
-          Password:
-          <input type="password" name="password" size="38" autofocus="" title="Inserte su contraseña aqui">
+          Direccion:
+          <input type="text" name="directory_selection" size="38" autofocus="" title="Inserte la direccion en donde se guardara el archivo aqui">
         </fieldset>
-        <input id="boton_enviar" type="submit" value="Enviar">
+        <input id="boton_enviar" type="submit" value="Exportar">
+        <input id="boton_cancelar" type="buton" value="Cancelar" size="8">
       </form>
     </div>
     <br>
