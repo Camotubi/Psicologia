@@ -1,13 +1,13 @@
 /*CSS para el menu*/
 #caja1{
 			margin: auto;
-			width: 400px;
+			width: 500px;
 			font-family: arial,helvetica,sans-serif;
 		}
 		ul,li{list-style: none;}
 .menu li a {
 			/*Todas las listas en el nav-enlaces*/
-			background-color: purple;
+			background-color: #50154f;
 			color: white;
 			text-decoration: none;
 			padding: 10px 15px;
