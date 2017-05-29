@@ -22,13 +22,14 @@ header div h6 {
 	clear: both;
 }
 
-footer{
-	background-color: #50154f;
- 	position:fixed;
-    	height:250px;
-    	bottom:0px;
-    	left:0px;
-    	right:0px;
-    	margin-bottom:0px;
+.footer{background-color: #50154f;
+
+ position:fixed;
+    height:250px;
+
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
 
 }
