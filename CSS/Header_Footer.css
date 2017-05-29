@@ -67,12 +67,13 @@ header div h6 {
 /*Aqui comienza el footer*/
 footer{
 	background-color: #50154f;
- 	position:fixed;
-    	height:250px;
+ 	position:absolute;
+ 	overflow: hidden;
+    	height:150px;
+    	margin: 0px;
     	bottom:0px;
     	left:0px;
     	right:0px;
-    	margin-bottom:0px;
 
 }
 
