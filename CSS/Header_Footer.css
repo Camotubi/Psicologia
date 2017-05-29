@@ -32,3 +32,21 @@ footer{
     	margin-bottom:0px;
 
 }
+
+.footer-logo-info  {
+	height:210px;
+	padding: 40px 50px 40px 50px;
+}
+.footer-logo-info p{
+	color:white;
+	margin:0px;
+	font-family:Arial;
+	font-size:12px;
+}
+
+.footer-logo-info img {
+
+	float: left;
+	height:75px;
+
+}
