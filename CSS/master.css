@@ -5,7 +5,8 @@ li a{
 .form{
   width: 500px;
   position: relative;
-  right: -500px;
+/*  right: -500px;*/
+  margin:auto;
 }
 body
 {
