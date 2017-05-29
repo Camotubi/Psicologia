@@ -1,3 +1,36 @@
+/*CSS para el menu*/
+#caja1{
+			margin: auto;
+			width: 400px;
+			font-family: arial,helvetica,sans-serif;
+		}
+		ul,li{list-style: none;}
+.menu li a {
+			/*Todas las listas en el nav-enlaces*/
+			background-color: purple;
+			color: white;
+			text-decoration: none;
+			padding: 10px 15px;
+			display: block; 
+		}/*para que no esten en linea*/
+.menu li a:hover{/*al pasar por las opciones*/
+			background-color: purple; 
+		}
+.menu > li{float: left;}/*les li directos*/
+.menu li ul{
+			display: none;
+			position: absolute;
+			min-width: 140px;
+		}
+.menu li:hover>ul{/*ul hijos de los li*/
+			display: block;
+		}
+.menu li ul li{position: relative;}/*podemos modificar posicion*/
+.menu li ul li ul{/*Cambiamos la posicion del submenu*/
+			right: -140px;
+			top: 0px;
+		}
+/*Hasta aqui*/
 li a{
   color: purple;
 }
