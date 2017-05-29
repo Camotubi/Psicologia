@@ -21,7 +21,50 @@ header div h6 {
 #clear{
 	clear: both;
 }
+/*CSS para el menu*/
+.menu{
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #50154f; 
+		}
+.menu ul,li{
+			list-style: none;
+		}
+.menu li a {
+			/*Todas las listas en el nav-enlaces*/
+			background-color: #50154f;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+			padding: 10px 15px;
+			display: block; 
+		}/*para que no esten en linea*/
+.menu li a:hover{/*al pasar por las opciones*/
+			background-color: purple; 
+		}
 
+.menu > li{
+			float: left;
+			border-right: 2px solid purple;
+	}/*les li directos*/
+.menu li ul{
+			display: none;
+			position: absolute;
+			min-width: 140px;
+		}
+.menu li:hover>ul{/*ul hijos de los li*/
+			display: block;
+		}
+.menu li ul li{position: relative;}/*podemos modificar posicion*/
+.menu li ul li ul{/*Cambiamos la posicion del submenu*/
+			right: -140px;
+			top: 0px;
+		}
+/*Hasta aqui*/
+
+
+/*Aqui comienza el footer*/
 footer{
 	background-color: #50154f;
  	position:fixed;
@@ -50,3 +93,4 @@ footer{
 	height:75px;
 
 }
+
