@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-
-    <link rel="stylesheet" href="../CSS/Header_Footer.css">
     <link rel="stylesheet" href="../CSS/master.css">
   </head>
   <body>
@@ -23,7 +21,7 @@
       <form action="calc_est.html" method="post">
         <fieldset>
           Rango de Datos:
-          <input type="text" name="rango" size="28" autofocus autocomplete="on" title="Inserte el rango de datos aqui">
+          <input type="text" name="rango" size="28" autofocus autocomplete="on" title="Inserte el rango de datos aqui" required>
 
           <select class="test" name="Pruebas">
             <option selected value = "0"></option>
@@ -34,7 +32,7 @@
           <br>
           <br>
           Celda donde colocar:
-          <input type="text" name="celda_result" size="18" autofocus title="Inserte la celda donde va a colocar el resultado aqui">
+          <input type="text" name="celda_result" size="18" autofocus title="Inserte la celda donde va a colocar el resultado aqui" required>
         </fieldset>
         <input id="boton_enviar" type="submit" value="Calcular">
         <input id="boton_cancelar" type="button" value="Cancelar" size="8">

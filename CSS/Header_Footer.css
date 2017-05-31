@@ -38,12 +38,8 @@ header div h6 {
 			padding: 0;
 			overflow: hidden;
 			background-color: #50154f; 
-			transition: width 2s;
-    		transition-delay: 0.5s;
 		}
-		.menu:hover {
-    width: 3000000px;
-}
+
 .menu ul,li{
 			list-style: none;
 		}

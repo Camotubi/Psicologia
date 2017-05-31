@@ -45,12 +45,125 @@ height:30px;
 font-weight:400;
 color:black;  
 }
+
+/*botón cancelar de calculos estadisticos*/
 input[type=button]
 {
-
 margin-top: 17px;
 float:left;
 height:30px;
 font-weight:400;
 color:black;  
 }
+
+/*Aqui empieza el header&footer*/
+#header{
+	float: left;
+}
+.verticalLine {
+	color: white;
+  border-left:  solid white;
+  float:right;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+header div img{
+	margin-top: 10px;
+	margin-left: 1px;
+	margin-right: 10px;
+	position: relative;
+}
+h6{
+	font-style: italic;
+}
+
+header div h1{
+	font-family:verdana;
+	margin-top: 0px;
+	font-size: 24px;
+	color: purple;
+}
+
+header div h6 {
+	margin-bottom: 0px;
+}
+#clear{
+	clear: both;
+}
+/*CSS para el menu*/
+.menu{
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #50154f; 
+		}
+
+.menu ul,li{
+			list-style: none;
+		}
+.menu li a {
+			/*Todas las listas en el nav-enlaces*/
+			background-color: #50154f;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+			padding: 10px 15px;
+			display: block; 
+		}/*para que no esten en linea*/
+.menu li a:hover{/*al pasar por las opciones*/
+			background-color: purple; 
+		}
+
+.menu > li{
+			float: left;
+			border-right: 2px solid purple;
+	}/*les li directos*/
+.menu li ul{
+			display: none;
+			position: absolute;
+			min-width: 140px;
+		}
+.menu li:hover>ul{/*ul hijos de los li*/
+			display: block;
+		}
+.menu li ul li{position: relative;}/*podemos modificar posicion*/
+.menu li ul li ul{/*Cambiamos la posicion del submenu*/
+			right: -140px;
+			top: 0px;
+		}
+/*Hasta aqui*/
+
+
+/*Aqui comienza el footer*/
+footer{
+	background-color: #50154f;
+ 	position:absolute;
+ 	overflow: hidden;
+    	height:150px;
+    	margin: 0px;
+    	bottom:0px;
+    	left:0px;
+    	right:0px;
+
+}
+
+.footer-logo-info  {
+	height:210px;
+	padding: 40px 50px 40px 50px;
+}
+.footer-logo-info p{
+	color:white;
+	margin:0px;
+	font-family:Arial;
+	font-size:12px;
+}
+
+.footer-logo-info img {
+
+	float: left;
+	height:75px;
+
+}
+
+
