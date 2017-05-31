@@ -11,6 +11,46 @@ li a{
 }
 body
 {
+	font-family: verdana;
 	max-width:90%;
 	margin:auto;
+}
+
+/*Inputs del Login*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+input:focus{
+	border:2px solid green;
+}
+input[type=submit]
+{
+
+margin-top: 20px;
+float:right;
+height:30px;
+font-weight:400;
+color:black;  
+}
+input[type=button]
+{
+
+margin-top: 17px;
+float:left;
+height:30px;
+font-weight:400;
+color:black;  
 }

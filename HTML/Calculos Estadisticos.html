@@ -23,9 +23,10 @@
       <form action="calc_est.html" method="post">
         <fieldset>
           Rango de Datos:
-          <input type="text" name="rango" size="28" autofocus="" autocomplete="on" title="Inserte el rango de datos aqui">
+          <input type="text" name="rango" size="28" autofocus autocomplete="on" title="Inserte el rango de datos aqui">
 
           <select class="test" name="Pruebas">
+            <option selected value = "0"></option>
             <option value="BGPA">Moda</option>
 	    <option value="B&B">Promedio</option>
             <option value="16">Mediana</option>
@@ -33,7 +34,7 @@
           <br>
           <br>
           Celda donde colocar:
-          <input type="text" name="celda_result" size="18" autofocus="" title="Inserte la celda donde va a colocar el resultado aqui">
+          <input type="text" name="celda_result" size="18" autofocus title="Inserte la celda donde va a colocar el resultado aqui">
         </fieldset>
         <input id="boton_enviar" type="submit" value="Calcular">
         <input id="boton_cancelar" type="button" value="Cancelar" size="8">
